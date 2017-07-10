@@ -43,7 +43,7 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* Fill in provided rules here
+* [wsc-standard-words](./docs/rules/wsc-standard-words.md)
 
 
 
