@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-youzan",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Eslint plugin for youzan",
   "keywords": [
     "eslint",
