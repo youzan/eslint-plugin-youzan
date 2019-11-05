@@ -1,4 +1,4 @@
-# wsc standard words (wsc-standard-words)
+# youzan standard words (youzan-standard-words)
 
 ## Rule Details
 
