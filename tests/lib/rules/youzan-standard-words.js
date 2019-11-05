@@ -1,5 +1,5 @@
 /**
- * @fileoverview wsc standard words
+ * @fileoverview youzan standard words
  * @author cookfront
  */
 "use strict";
@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require("../../../lib/rules/wsc-standard-words"),
+var rule = require("../../../lib/rules/youzan-standard-words"),
 
     RuleTester = require("eslint").RuleTester;
 
@@ -18,7 +18,7 @@ var rule = require("../../../lib/rules/wsc-standard-words"),
 //------------------------------------------------------------------------------
 
 var ruleTester = new RuleTester();
-ruleTester.run("wsc-standard-words", rule, {
+ruleTester.run("youzan-standard-words", rule, {
 
     valid: [
         {
@@ -30,7 +30,7 @@ ruleTester.run("wsc-standard-words", rule, {
         {
             code: "var a = '登陆'",
             errors: [{
-                message: "使用的文案中有常见的错误用词"
+                message: "使用的文案中有常见的错误用词：登陆，请用 登录 代替"
             }]
         }
     ]
