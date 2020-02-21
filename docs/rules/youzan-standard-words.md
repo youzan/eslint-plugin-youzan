@@ -23,10 +23,10 @@ This rule has an object option:
 
 ### ignore
 
-Examples of correct code for this rule with the allow option:
+Examples of **correct** code for this rule with the ignore option:
 
 ```js
-/*"youzan/youzan-standard-words": ["error", { "ignore": ["登陆"] }]*/
+/*eslint youzan/youzan-standard-words: ["error", { "ignore": ["登陆"] }]*/
 
 const a = "登陆"
 ```
