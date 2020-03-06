@@ -43,7 +43,7 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* [youzan/wsc-standard-words](https://github.com/youzan/eslint-plugin-youzan/blob/master/docs/rules/wsc-standard-words.md)
+* [youzan/youzan-standard-words](https://github.com/youzan/eslint-plugin-youzan/blob/master/docs/rules/youzan-standard-words.md)
 
 
 
